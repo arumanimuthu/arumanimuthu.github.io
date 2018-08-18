@@ -1,0 +1,34 @@
+<html>
+<head><title>K Web Mock</title>
+	<link type="image/x-icon" href="./images/Pokeball.ico">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<style>
+		.image {
+			height: 108vh;
+			width: 128vw;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- <img src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/bg-01.svg"> -->
+
+	<div id="scene" style="height: 103vh; width:114vw; margin: -3vw 0 0 -14vw" >
+	  <!-- <div data-depth="0.2" style="margin: auto !important; text-align: center;">My first Layer!</div>
+	  <div data-depth="0.6">My second Layer!</div> -->
+	  <img class="image" data-depth="0.2" src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/bg-01.svg">
+	  <img class="image" data-depth="0.2" src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/ceg-01.svg">
+	  <img style="margin: 15vh 0 0 38vw" data-depth="0.6" src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/drones-01.svg">
+	  <img class="image" data-depth="0.6" src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/people-01.svg">
+	  <img class="image" data-depth="0.4" src="/Users/arumanimuthu.jm/Desktop/K Web Mock/app/images/trees-01.svg">
+	</div>
+
+
+
+</body>
+
+<script type="text/javascript">
+	var scene = document.getElementById('scene');
+	var parallaxInstance = new Parallax(scene);	
+</script>
+</html>
